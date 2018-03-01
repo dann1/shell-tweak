@@ -1,0 +1,34 @@
+#!/bin/bash
+
+alias ls="ls --color --group-directories-first"
+alias ll="ls -hl --color --group-directories-first"
+alias lah="ls -lah --color"
+alias grep="grep -i --color"
+alias mkdir='mkdir -p'
+alias ..='cd ..'
+alias du='du -kh'
+alias df='df -kTh'
+alias vi="vim"
+alias chmox='chmod +x'
+alias rsync-boost="rsync -avlP --inplace --delete"
+alias ungz="gunzip -k"
+alias sudo="sudo -S"
+alias ssuspend="systemctl suspend"
+alias tarx="tar --xattrs -xpf"
+alias tarc="tar --xattrs -cpvJf"
+alias tarcp="tar --xattrs -I pixz -cpvf"
+alias tarxp="tar --xattrs -I pixz -xpvf"
+alias cpr="rsync -ahrP"
+alias tree='tree -Csuh' 
+
+#modem
+alias dial='sudo /usr/sbin/pppd /dev/ttyACM0'
+alias hang='sudo /usr/bin/killall pppd'
+
+#archlinux
+alias pacremove="sudo pacman -Rcns (sudo pacman -Qtdq)"
+alias Syu="sudo pacman -Syyuu"
+alias pacaur="pacaur -am --noconfirm --noedit"
+
+#deb
+alias repo-update="sudo apt update -o=Acquire::AllowInsecureRepositories=true"

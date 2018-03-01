@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export VISUAL=nano
+export EDITOR=nano
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on'
+export LESS=-R
+export PYTHONDOCS=/usr/share/doc/python2/html/
+export LIBVIRT_DEFAULT_URI=qemu:///system
