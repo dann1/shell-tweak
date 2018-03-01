@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Sample script for installing
+
 cd ~
 rsync -av --progress dann1@192.168.2.1:~/Projects/shell-tweak/ .shell-tweak
 
